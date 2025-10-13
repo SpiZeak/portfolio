@@ -1,12 +1,3 @@
-# Nuxt Portfolio Template
-
-[![Nuxt UI](https://img.shields.io/badge/Made%20with-Nuxt%20UI-00DC82?logo=nuxt&labelColor=020420)](https://ui.nuxt.com)
-
-Use this template to create your own portfolio with [Nuxt UI](https://ui.nuxt.com).
-
-- [Live demo](https://portfolio-template.nuxt.dev/)
-- [Documentation](https://ui.nuxt.com/getting-started/installation)
-
 <a href="https://portfolio-template.nuxt.dev/" target="_blank">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://ui.nuxt.com/assets/templates/nuxt/portfolio-dark.png">
@@ -30,7 +21,7 @@ npm create nuxt@latest -- -t github:nuxt-ui-templates/portfolio
 Make sure to install the dependencies:
 
 ```bash
-pnpm install
+bun install
 ```
 
 ## Development Server
@@ -38,7 +29,7 @@ pnpm install
 Start the development server on `http://localhost:3000`:
 
 ```bash
-pnpm dev
+bun run dev
 ```
 
 ## Production
@@ -46,13 +37,13 @@ pnpm dev
 Build the application for production:
 
 ```bash
-pnpm build
+bun run build
 ```
 
 Locally preview production build:
 
 ```bash
-pnpm preview
+bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.

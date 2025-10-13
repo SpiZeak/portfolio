@@ -105,7 +105,6 @@ defineProps<{
           v-if="page.hero.links"
           class="flex items-center gap-2"
         >
-          <UButton v-bind="page.hero.links[0]" />
           <UButton
             :color="global.available ? 'success' : 'error'"
             variant="ghost"
@@ -116,11 +115,11 @@ defineProps<{
             <template #leading>
               <span class="relative flex size-2">
                 <span
-                  class="absolute inline-flex size-full rounded-full opacity-75"
+                  class="inline-flex absolute opacity-75 rounded-full size-full"
                   :class="global.available ? 'bg-success animate-ping' : 'bg-error'"
                 />
                 <span
-                  class="relative inline-flex size-2 scale-90 rounded-full"
+                  class="inline-flex relative rounded-full size-2 scale-90"
                   :class="global.available ? 'bg-success' : 'bg-error'"
                 />
               </span>
@@ -129,7 +128,7 @@ defineProps<{
         </div>
       </Motion>
 
-      <div class="gap-x-4 inline-flex mt-4">
+      <div class="inline-flex gap-x-4 mt-4">
         <Motion
           v-for="(link, index) of footer?.links"
           :key="index"
@@ -158,7 +157,7 @@ defineProps<{
 
     <UMarquee
       pause-on-hover
-      class="py-2 -mx-8 sm:-mx-12 lg:-mx-16 [--duration:40s]"
+      class="-mx-8 sm:-mx-12 lg:-mx-16 py-2 [--duration:40s]"
     >
       <Motion
         v-for="(img, index) in page.hero.images"
@@ -181,7 +180,7 @@ defineProps<{
         <NuxtImg
           width="234"
           height="234"
-          class="rounded-lg aspect-square object-cover"
+          class="rounded-lg object-cover aspect-square"
           :class="index % 2 === 0 ? '-rotate-2' : 'rotate-2'"
           v-bind="img"
         />
