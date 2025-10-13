@@ -37,7 +37,7 @@ export default defineAppConfig({
       'aria-label': 'Nuxt on X'
     }, {
       'icon': 'i-simple-icons-github',
-      'to': 'https://github.com/nuxt/ui',
+      'to': 'https://github.com/SpiZeak',
       'target': '_blank',
       'aria-label': 'Nuxt UI on GitHub'
     }]
