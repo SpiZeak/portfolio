@@ -1,13 +1,13 @@
 seo:
-  title: "Emma Thompson - UX/UI Designer"
-  description: "Welcome to my portfolio! I'm Emma Thompson, a UX/UI designer and front-end developer based in Boston. I specialize in creating user-centered digital experiences that are both beautiful and functional."
-title: "Hey, I'm Emma Thompson UX/UI Designer"
-description: "I craft intuitive digital experiences where design meets functionality. Based in Boston, bringing ideas to life through code and creativity."
+  title: 'Max Trewhitt - Full Stack Developer'
+  description: "Welcome to my portfolio! I'm Max Trewhitt, a Full Stack Developer based in Sweden. I specialize in creating user-centered digital experiences that are both beautiful and functional."
+title: "Hey, I'm Max Trewhitt Full Stack Developer"
+description: 'I craft intuitive digital experiences where design meets functionality. Based in Sweden, bringing ideas to life through code and creativity.'
 hero:
   links:
-    - label: "Use this template"
+    - label: 'Use this template'
       to: https://github.com/nuxt-ui-templates/portfolio
-      color: "neutral"
+      color: 'neutral'
   images:
     - src: /hero/random-1.avif
       alt: Random Image 1
@@ -28,34 +28,34 @@ hero:
     - src: /hero/random-9.avif
       alt: Random Image 9
 about:
-  title: "About Me"
+  title: 'About Me'
   description: |
-    As a UX/UI designer and front-end developer with 6 years of experience, I leverage my Boston University Interactive Design degree to craft user-centered digital experiences.
+    As a Full Stack Developer with 6 years of experience, I leverage my Boston University Interactive Design degree to craft user-centered digital experiences.
     My approach blends creative strategy with technical expertise, transforming concepts into functional, purposeful digital products that seamlessly integrate design and technology.
 experience:
   title: Work Experience
   items:
-    - position: "Brand Designer at"
-      date: "2023 - Present"
+    - position: 'Brand Designer at'
+      date: '2023 - Present'
       company:
         name: Nuxt
-        logo: "i-simple-icons-nuxtdotjs"
-        url: "https://nuxt.com"
-        color: "#00DC82"
-    - position: "Assets Designer at"
-      date: "2022 - 2023"
+        logo: 'i-simple-icons-nuxtdotjs'
+        url: 'https://nuxt.com'
+        color: '#00DC82'
+    - position: 'Assets Designer at'
+      date: '2022 - 2023'
       company:
         name: Raycast
-        logo: "i-simple-icons-raycast"
-        url: "https://raycast.com"
-        color: "#FF6363"
-    - position: "Senior UX/UI Designer at"
-      date: "2020 - 2021"
+        logo: 'i-simple-icons-raycast'
+        url: 'https://raycast.com'
+        color: '#FF6363'
+    - position: 'Senior Full Stack Developer at'
+      date: '2020 - 2021'
       company:
         name: Linear
-        logo: "i-simple-icons-linear"
-        url: "https://linear.app"
-        color: "#5E6AD2"
+        logo: 'i-simple-icons-linear'
+        url: 'https://linear.app'
+        color: '#5E6AD2'
 testimonials:
   - quote: "Emma's approach to UX design completely transformed our product. She has a rare ability to balance beautiful aesthetics with functional simplicity. The redesign not only looked better, but it reduced our customer support tickets by 40% and increased conversion rates across all key metrics."
     author:
@@ -79,8 +79,8 @@ testimonials:
         src: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80'
         srcset: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x'
 blog:
-  title: "Latest Articles"
-  description: "Some of my recent thoughts"
+  title: 'Latest Articles'
+  description: 'Some of my recent thoughts'
 faq:
   title: Frequently Asked Questions
   description: Answers to common questions about my process and services.
@@ -89,7 +89,7 @@ faq:
       questions:
         - label: What services do you offer?
           content: |
-            I specialize in UX/UI design and front-end development. This includes user research, wireframing, interactive prototyping, creating intuitive user interfaces, building responsive websites and web applications (especially with Vue.js/Nuxt.js), and developing design systems. My goal is to create seamless digital experiences from concept to deployment.
+            I specialize in Full Stack Development. This includes user research, wireframing, interactive prototyping, creating intuitive user interfaces, building responsive websites and web applications (especially with Vue.js/Nuxt.js), and developing design systems. My goal is to create seamless digital experiences from concept to deployment.
         - label: What is your design process like?
           content: |
             My process is collaborative and iterative, typically involving stages like Discovery & Research, Ideation & Prototyping, User Testing, Visual Design, and close collaboration with development teams during implementation. I tailor the process based on project needs, always focusing on user-centered solutions.
@@ -100,7 +100,7 @@ faq:
       questions:
         - label: How much does a project typically cost?
           content: |
-            Project costs vary based on scope, complexity, features, and timeline. For comprehensive UX/UI design and front-end development projects, my engagements typically start around $5,000, with average projects ranging between $8,000 and $25,000. For consulting or specific design tasks, my day rate is $700.
+            Project costs vary based on scope, complexity, features, and timeline. For comprehensive Full Stack Development projects, my engagements typically start around $5,000, with average projects ranging between $8,000 and $25,000. For consulting or specific design tasks, my day rate is $700.
         - label: What are your payment terms?
           content: |
             I generally require a 40% deposit to schedule the project and begin work, with the remaining 60% due upon successful project completion and delivery. I accept payments via bank transfer and Stripe.
