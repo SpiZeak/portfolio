@@ -29,11 +29,6 @@ const createAuthorSchema = () => z.object({
   avatar: createImageSchema().optional()
 })
 
-const createTestimonialSchema = () => z.object({
-  quote: z.string(),
-  author: createAuthorSchema()
-})
-
 export default defineContentConfig({
   collections: {
     index: defineCollection({
@@ -57,7 +52,6 @@ export default defineContentConfig({
             })
           }))
         }),
-        testimonials: z.array(createTestimonialSchema()),
         blog: createBaseSchema(),
         faq: createBaseSchema().extend({
           categories: z.array(
