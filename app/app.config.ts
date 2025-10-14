@@ -35,6 +35,11 @@ export default defineAppConfig({
       'to': 'https://www.linkedin.com/in/max-trewhitt',
       'target': '_blank',
       'aria-label': 'Max Trewhitt on LinkedIn'
+    }, {
+      'icon': 'i-simple-icons-instagram',
+      'to': 'https://www.instagram.com/spizzeak',
+      'target': '_blank',
+      'aria-label': 'Max Trewhitt on Instagram'
     }]
   }
 })
