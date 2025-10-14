@@ -26,20 +26,15 @@ export default defineAppConfig({
     credits: `Built with Nuxt UI • © ${new Date().getFullYear()}`,
     colorMode: false,
     links: [{
-      'icon': 'i-simple-icons-discord',
-      'to': 'https://go.nuxt.com/discord',
-      'target': '_blank',
-      'aria-label': 'Nuxt on Discord'
-    }, {
-      'icon': 'i-simple-icons-x',
-      'to': 'https://go.nuxt.com/x',
-      'target': '_blank',
-      'aria-label': 'Nuxt on X'
-    }, {
       'icon': 'i-simple-icons-github',
       'to': 'https://github.com/SpiZeak',
       'target': '_blank',
-      'aria-label': 'Nuxt UI on GitHub'
+      'aria-label': 'Max Trewhitt on GitHub'
+    }, {
+      'icon': 'i-simple-icons-linkedin',
+      'to': 'https://www.linkedin.com/in/max-trewhitt',
+      'target': '_blank',
+      'aria-label': 'Max Trewhitt on LinkedIn'
     }]
   }
 })

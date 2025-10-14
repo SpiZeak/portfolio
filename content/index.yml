@@ -4,10 +4,6 @@ seo:
 title: "Hey, I'm Max Trewhitt Full Stack Developer"
 description: 'I craft intuitive digital experiences where design meets functionality. Based in Sweden, bringing ideas to life through code and creativity.'
 hero:
-  links:
-    - label: 'Use this template'
-      to: https://github.com/nuxt-ui-templates/portfolio
-      color: 'neutral'
   images:
     - src: /hero/random-1.avif
       alt: Random Image 1
@@ -27,6 +23,12 @@ hero:
       alt: Random Image 8
     - src: /hero/random-9.avif
       alt: Random Image 9
+    - src: /hero/random-10.avif
+      alt: Random Image 10
+    - src: /hero/random-11.avif
+      alt: Random Image 11
+    - src: /hero/random-12.avif
+      alt: Random Image 12
 about:
   title: 'About Me'
   description: |
