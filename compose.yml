@@ -1,0 +1,39 @@
+services:
+  app:
+    image: oven/bun
+    container_name: nuxt-app
+    working_dir: /app
+    volumes:
+      - ./:/app
+    command: sh -c "bun install && bun --bun run dev"
+    environment:
+      - NODE_ENV=development
+    network_mode: "host"
+    restart: unless-stopped
+
+  certgen:
+    image: alpine/openssl
+    container_name: localhost-certgen
+    profiles:
+      - certs
+    working_dir: /certs
+    volumes:
+      - ./certs:/certs
+    entrypoint: /bin/sh
+    command:
+      - -c
+      - |
+        set -eu
+        mkdir -p "/certs/localhost"
+        if [ -f "/certs/localhost/privkey.pem" ] && [ -f "/certs/localhost/fullchain.pem" ]; then
+          echo "Localhost certificate already exists. Skipping generation."
+        else
+          openssl req -x509 -nodes -newkey rsa:2048 \
+            -keyout "/certs/localhost/privkey.pem" \
+            -out "/certs/localhost/fullchain.pem" \
+            -subj "/CN=localhost" \
+            -days "825" \
+            -addext "subjectAltName=DNS:localhost,IP:127.0.0.1"
+          chmod 600 "/certs/localhost/privkey.pem"
+          echo "Created development certificate at /certs/localhost/fullchain.pem"
+        fi

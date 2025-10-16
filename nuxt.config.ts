@@ -16,6 +16,13 @@ export default defineNuxtConfig({
 
   css: ['~/assets/css/main.css'],
 
+  devServer: {
+    https: {
+      key: './certs/localhost/privkey.pem',
+      cert: './certs/localhost/fullchain.pem'
+    }
+  },
+
   compatibilityDate: '2024-11-01',
 
   nitro: {
