@@ -1,6 +1,7 @@
 services:
   app:
-    image: oven/bun
+    image: oven/bun:alpine
+    user: "1000:1000"
     container_name: nuxt-app
     working_dir: /app
     volumes:
@@ -13,6 +14,7 @@ services:
 
   certgen:
     image: alpine/openssl
+    user: "1000:1000"
     container_name: localhost-certgen
     profiles:
       - certs

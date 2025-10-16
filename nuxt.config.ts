@@ -26,6 +26,7 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
 
   nitro: {
+    preset: 'bun',
     prerender: {
       routes: [
         '/'
@@ -41,5 +42,10 @@ export default defineNuxtConfig({
         braceStyle: '1tbs'
       }
     }
+  },
+
+  image: {
+    // Disable Nuxt Image in development mode
+    provider: process.env.NODE_ENV === 'development' ? 'none' : 'ipx'
   }
 })
