@@ -6,7 +6,7 @@ services:
     working_dir: /app
     volumes:
       - ./:/app
-    command: sh -c "bun install && bun --bun run dev"
+    command: sh -c "bun install && NODE_TLS_REJECT_UNAUTHORIZED=0 bun --bun run dev --no-fork"
     environment:
       - NODE_ENV=development
     network_mode: "host"
