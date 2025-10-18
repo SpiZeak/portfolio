@@ -57,13 +57,13 @@ const formatDate = (dateString: string) => {
       <UPage v-if="page">
         <ULink
           to="/blog"
-          class="text-sm flex items-center gap-1"
+          class="flex items-center gap-1 text-sm"
         >
           <UIcon name="lucide:chevron-left" />
           Blog
         </ULink>
         <div class="flex flex-col gap-3 mt-8">
-          <div class="flex text-xs text-muted items-center justify-center gap-2">
+          <div class="flex justify-center items-center gap-2 text-muted text-xs">
             <span v-if="page.date">
               {{ formatDate(page.date) }}
             </span>
@@ -77,15 +77,15 @@ const formatDate = (dateString: string) => {
           <NuxtImg
             :src="page.image"
             :alt="page.title"
-            class="rounded-lg w-full h-[300px] object-cover object-center"
+            class="rounded-lg w-full h-[300px] object-center object-cover"
           />
-          <h1 class="text-4xl text-center font-medium max-w-3xl mx-auto mt-4">
+          <h1 class="mx-auto mt-4 max-w-3xl font-medium text-4xl text-center">
             {{ page.title }}
           </h1>
-          <p class="text-muted text-center max-w-2xl mx-auto">
+          <p class="mx-auto max-w-2xl text-muted text-center">
             {{ page.description }}
           </p>
-          <div class="flex items-center justify-center gap-2 mt-2">
+          <div class="flex justify-center items-center gap-2 mt-2">
             <UUser
               orientation="vertical"
               color="neutral"
@@ -95,13 +95,13 @@ const formatDate = (dateString: string) => {
             />
           </div>
         </div>
-        <UPageBody class="max-w-3xl mx-auto">
+        <UPageBody class="mx-auto max-w-3xl">
           <ContentRenderer
             v-if="page.body"
             :value="page"
           />
 
-          <div class="flex items-center justify-end gap-2 text-sm text-muted">
+          <div class="flex justify-end items-center gap-2 text-muted text-sm">
             <UButton
               size="sm"
               variant="link"
