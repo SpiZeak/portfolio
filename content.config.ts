@@ -42,11 +42,11 @@ export default defineContentConfig({
         about: createBaseSchema(),
         experience: createBaseSchema().extend({
           items: z.array(z.object({
-            date: z.date(),
+            date: z.string(),
             position: z.string(),
             company: z.object({
               name: z.string(),
-              url: z.string(),
+              url: z.string().optional(),
               logo: z.string().editor({ input: 'icon' }),
               color: z.string()
             })

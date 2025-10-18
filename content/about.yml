@@ -1,25 +1,23 @@
 title: About Me
-description: Learn more about my journey as a Sweden-based Full-Stack Developer with Australian roots, my design philosophy, and my passion for crafting intuitive digital experiences.
+description: Learn more about my journey as a Sweden-based full-stack engineer with Australian roots, the projects I lead at Osolo Consultant Group, and how I approach building reliable web platforms.
 content: |
-  Hi, I'm **Max Trewhitt**, a Full-Stack Developer based in Sweden. For the past eight years, I've been immersed in the world of digital product creation, focusing on building experiences that are not just functional, but genuinely intuitive and engaging for users. I hold Australian citizenship and stay closely connected with family in Australia, and that dual perspective shapes the way I collaborate across time zones and cultures.
+  Hi, I'm **Max Trewhitt**, a full-stack developer based in Sweden with Australian-Swedish citizenship. Since 2018 I've been delivering web applications for **Osolo Consultant Group**, pairing React and TypeScript front-ends with Node.js services and custom WordPress builds that give marketing teams the flexibility they need.
 
-  My path started at **Boston University**, where I earned a degree in Interactive Design. It was there I discovered my dual passion for the visual language of design and the logical puzzle of code. Since then, I've honed my skills in both areas, believing that the best digital products are born from a deep understanding of both aesthetics and implementation.
+  ### What I'm focused on right now
 
-  ### My Design Philosophy
+  At Osolo I lead agile squads that ship production features for B2B clients—from responsive dashboards to content-managed marketing sites. My role spans planning sprint work, pairing with designers, reviewing pull requests, and keeping a close eye on performance budgets and accessibility standards.
 
-  My design philosophy is rooted in **empathy** and **problem-solving**. I believe great design starts with understanding the 'why' – the user's needs, motivations, and pain points. I use research, iterative prototyping (often with tools like Figma), and user testing to ensure the solutions I build are truly effective.
+  ### Previous experience
 
-  I strive to create interfaces that feel effortless, where functionality and beauty work hand-in-hand. Whether I'm crafting pixel-perfect UIs or writing clean Vue.js/Nuxt.js code, my focus is always on creating value for the end-user.
+  Before stepping into my current role I built custom WordPress plugins and performance optimisations during an internship at **Lightweb**, and delivered a React + Redux single-page application for **Vinnovera's Robotkodarn** program where Arduino code compiled in the browser and streamed to classroom devices.
 
-  ### What Drives Me
+  ### Education
 
-  What keeps me excited about this work is the constant learning and the challenge of translating complex ideas into simple, elegant solutions. There's nothing more rewarding than seeing a design come to life and knowing it's making someone's digital interaction easier or more enjoyable.
+  I earned an **Advanced Diploma in Front-End Development** from **KYH** (2016–2018) and completed a **University Preparatory Exam at Cybergymnasiet** with a focus on programming, media technology, and web development. That mix of creative problem solving and technical rigour still shapes how I approach every build.
 
-  ### Beyond the Screen
+  ### Outside of commits
 
-  When I'm not designing or coding, you might find me exploring Sweden's coffee culture, reconnecting with family in Australia, hiking, or occasionally contributing to open-source projects.
-
-  Thanks for stopping by. Feel free to browse my [projects](/projects) or [get in touch](/#contact) if you'd like to collaborate!
+  I'm usually experimenting with new JavaScript tooling, sharing best practices with my team, or exploring the Swedish countryside with a camera. Staying connected with family in Australia keeps my perspective broad and my collaboration style flexible across time zones.
 images:
   - src: https://images.unsplash.com/photo-1744877478622-a78c7a3336f6?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
     alt: My coffee workspace

@@ -34,118 +34,118 @@ interface Collection {
 
 const collections = ref<Collection[]>([
   {
-    key: 'urban-afterglow',
-    title: 'Urban Afterglow',
-    description: 'Nocturnal editorials for a luxury streetwear launch, balancing neon intensity with intimate character-driven frames.',
-    focus: 'Editorial campaign',
-    location: 'Tokyo & Hong Kong',
-    client: 'Aurelia Atelier',
-    year: '2024',
-    gear: ['Leica SL2-S', 'Fujifilm X-Pro3', '23mm f/1.4', 'Profoto A2'],
-    deliverables: ['Lookbook hero suite', 'OOH billboard key art', 'Social-first motion snippets'],
-    palette: ['#0f172a', '#38bdf8', '#f97316'],
+    key: 'osolo-onboarding',
+    title: 'Osolo Client Onboarding Portal',
+    description: 'A React and TypeScript experience that walks enterprise clients through onboarding, ties into internal CRMs, and surfaces content managed in WordPress.',
+    focus: 'Full-stack product delivery',
+    location: 'Remote · Stockholm',
+    client: 'Osolo Consultant Group',
+    year: '2018 — Present',
+    gear: ['React', 'TypeScript', 'Node.js', 'WordPress REST API', 'Storybook'],
+    deliverables: ['Responsive onboarding dashboards', 'Integration layer for legacy systems', 'Author-friendly content modules'],
+    palette: ['#0f172a', '#0ea5e9', '#22c55e'],
     shots: [
       {
         src: '/hero/random-5.avif',
-        alt: 'Neon trails weaving through a night market',
-        meta: 'Mong Kok • Fuji X-Pro3 • 23mm'
+        alt: 'Account overview dashboard with progress indicators',
+        meta: 'React · TypeScript · Tailwind CSS'
       },
       {
         src: '/hero/random-2.avif',
-        alt: 'City skyline captured through a rain-speckled window',
-        meta: 'Shinjuku • Leica SL2-S • 75mm'
+        alt: 'Workflow builder interface for onboarding tasks',
+        meta: 'Node.js services · API integrations'
       },
       {
         src: '/hero/random-12.avif',
-        alt: 'Abstract reflections on mirrored high-rise glass',
-        meta: 'Central District • Leica SL2-S • 50mm'
+        alt: 'Mobile summary view of the onboarding experience',
+        meta: 'React Native prototype · Offline support'
       }
     ]
   },
   {
-    key: 'seamless-horizons',
-    title: 'Seamless Horizons',
-    description: 'A mindful travel story showcasing design hotels through natural light, negative space, and long-exposure calm.',
-    focus: 'Travel & hospitality',
-    location: 'Lake District · Snæfellsnes · Rubʼ al Khali',
-    client: 'Nine Pines Retreat',
-    year: '2023',
-    gear: ['Sony A7 IV', '24mm GM', 'DJI Mavic 3', 'PolarPro ND set'],
-    deliverables: ['Hero landing imagery', 'Fine-art print triptych', 'Campaign teaser film stills'],
-    palette: ['#ca8a04', '#f3f4f6', '#1e293b'],
+    key: 'lightweb-plugins',
+    title: 'Lightweb WordPress Extensions',
+    description: 'Custom plugins and performance optimisations that gave Lightweb clients the tools to launch campaigns faster and keep pages speedy.',
+    focus: 'WordPress engineering',
+    location: 'Gothenburg · Remote',
+    client: 'Lightweb',
+    year: '2017 — 2018',
+    gear: ['PHP', 'WordPress', 'ACF', 'Webpack', 'REST API'],
+    deliverables: ['Plugin suite for campaign landing pages', 'Page speed optimisation playbook', 'Reusable Gutenberg block patterns'],
+    palette: ['#1e293b', '#f59e0b', '#0ea5e9'],
     shots: [
       {
         src: '/hero/random-1.avif',
-        alt: 'Soft sunset reflecting on a mountain range',
-        meta: 'Lake District • Sony A7 IV • 35mm'
+        alt: 'Custom WordPress block layout for a campaign page',
+        meta: 'Advanced Custom Fields · PHP'
       },
       {
         src: '/hero/random-3.avif',
-        alt: 'Slow shutter capture of waves on a volcanic beach',
-        meta: 'Snæfellsnes • Sony A7 IV • 24mm'
+        alt: 'Performance profile comparing page load improvements',
+        meta: 'Webpack bundling · Caching strategy'
       },
       {
         src: '/hero/random-6.avif',
-        alt: 'Minimalist sand dunes with long shadows',
-        meta: 'Rubʼ al Khali • Hasselblad 907X • 65mm'
+        alt: 'WordPress editor sidebar with tailored controls',
+        meta: 'Gutenberg · React'
       }
     ]
   },
   {
-    key: 'human-stories',
-    title: 'Human Stories',
-    description: 'Portraiture-led storytelling crafted for annual reports and editorial spreads with an emphasis on intimacy.',
-    focus: 'Portrait & lifestyle',
-    location: 'Barcelona · Black Forest · Paris',
-    client: 'Helio Collective',
-    year: '2025',
-    gear: ['Canon R6', 'Leica Q2', '85mm f/1.4', 'Aputure Nova P300c'],
-    deliverables: ['Executive profile series', 'Campaign documentary stills', 'Event storybook gallery'],
-    palette: ['#fbbf24', '#0f172a', '#f5f5f4'],
+    key: 'component-library',
+    title: 'Osolo Component Library & Design System',
+    description: 'A shared React component library documented in Storybook with automated visual regression testing and release pipelines.',
+    focus: 'Design system engineering',
+    location: 'Remote · Stockholm',
+    client: 'Osolo Consultant Group',
+    year: '2023 — Present',
+    gear: ['React', 'TypeScript', 'Storybook', 'Chromatic', 'Playwright'],
+    deliverables: ['Token-driven component library', 'Design system documentation', 'Automated regression testing suite'],
+    palette: ['#312e81', '#7dd3fc', '#22c55e'],
     shots: [
       {
         src: '/hero/random-4.avif',
-        alt: 'Golden hour portrait against a brutalist facade',
-        meta: 'Barcelona • Leica Q2 • 28mm'
+        alt: 'Storybook documentation for a data visualization component',
+        meta: 'Storybook · Controls & Docs'
       },
       {
         src: '/hero/random-7.avif',
-        alt: 'Autumn forest with soft morning fog',
-        meta: 'Black Forest • Sony A7R V • 85mm'
+        alt: 'Design tokens mapped across light and dark themes',
+        meta: 'CSS variables · Theming'
       },
       {
         src: '/hero/random-10.avif',
-        alt: 'Candid moment between newlyweds under string lights',
-        meta: 'Paris • Canon R6 • 50mm'
+        alt: 'Automated visual regression report highlighting changes',
+        meta: 'Chromatic · CI/CD pipeline'
       }
     ]
   },
   {
-    key: 'precision-details',
-    title: 'Precision Details',
-    description: 'Macro and architectural studies focused on texture, materials, and quiet nighttime atmospheres for design brands.',
-    focus: 'Design documentation',
-    location: 'Lisbon · Wadi Rum · Zermatt',
-    client: 'Northline Studio',
-    year: '2024',
-    gear: ['Nikon Z7 II', '20mm f/1.8', 'Sony A7 IV', '90mm Macro'],
-    deliverables: ['Material library catalogue', 'Large-format gallery prints', 'Art-direction deck stills'],
-    palette: ['#1f2937', '#fde68a', '#c4b5fd'],
+    key: 'robotkodarn',
+    title: 'Robotkodarn Coding Lessons PWA',
+    description: 'A React + Redux single-page app that compiles Arduino code in the browser and streams it to classroom hardware for Vinnovera’s STEM programme.',
+    focus: 'Education technology',
+    location: 'Stockholm · Remote',
+    client: 'Vinnovera',
+    year: '2017',
+    gear: ['React', 'Redux', 'WebUSB', 'Service Workers', 'TypeScript'],
+    deliverables: ['Offline-ready progressive web app', 'Live code compilation pipeline', 'Classroom device management interface'],
+    palette: ['#0f172a', '#38bdf8', '#f97316'],
     shots: [
       {
         src: '/hero/random-8.avif',
-        alt: 'Street scene framed by dramatic architecture',
-        meta: 'Lisbon • Leica M11 • 50mm'
+        alt: 'Lesson plan dashboard for robotics teachers',
+        meta: 'React · Redux state management'
       },
       {
         src: '/hero/random-9.avif',
-        alt: 'Long exposure of star trails above a desert camp',
-        meta: 'Wadi Rum • Nikon Z7 II • 20mm'
+        alt: 'Serial monitor view showing device communication',
+        meta: 'WebUSB · Node.js gateway'
       },
       {
         src: '/hero/random-11.avif',
-        alt: 'Macro detail of dew on alpine wildflowers',
-        meta: 'Zermatt • Sony A7 IV • 90mm'
+        alt: 'Student progress overview across robotics modules',
+        meta: 'Offline caching · IndexedDB'
       }
     ]
   }
@@ -153,40 +153,40 @@ const collections = ref<Collection[]>([
 
 const highlights = [
   {
-    value: '48',
-    label: 'Campaigns delivered',
-    description: 'End-to-end editorial, hospitality and design briefs across three continents.',
-    icon: 'i-lucide-aperture'
+    value: '7+',
+    label: 'Years shipping production software',
+    description: 'Leading React, Node.js, and WordPress delivery for enterprise and education clients.',
+    icon: 'i-lucide-rocket'
   },
   {
-    value: '18',
-    label: 'Cities documented',
-    description: 'On-location production from Reykjavik to Hong Kong with nimble crews.',
-    icon: 'i-lucide-globe-2'
+    value: 'TypeScript-first',
+    label: 'Primary stack',
+    description: 'React, Node.js, Storybook, and automated testing pipelines that keep teams confident in every release.',
+    icon: 'i-lucide-code-2'
   },
   {
-    value: '5 days',
-    label: 'Average turnaround',
-    description: 'Curated client galleries with colour grading, retouching and delivery assets.',
-    icon: 'i-lucide-timer'
+    value: 'Agile & collaborative',
+    label: 'Ways of working',
+    description: 'Facilitating backlog refinement, sprint rituals, and cross-functional demos across time zones.',
+    icon: 'i-lucide-users'
   }
 ]
 
 const approach = [
   {
-    title: 'Pre-production Lab',
-    description: 'Treatment development, casting and technical scouting that translates strategy into tangible shot plans.',
+    title: 'Discover & align',
+    description: 'Clarify requirements, audit existing platforms, and define an incremental delivery plan with stakeholders.',
     icon: 'i-lucide-compass'
   },
   {
-    title: 'On-location Direction',
-    description: 'Precise direction for talent and crew while capturing candid in-between moments that brands crave.',
-    icon: 'i-lucide-orbit'
+    title: 'Build in increments',
+    description: 'Pair programming, continuous integration, and sprint demos keep feedback loops tight and quality high.',
+    icon: 'i-lucide-git-branch'
   },
   {
-    title: 'Post-production Finish',
-    description: 'Cinematic grading, meticulous retouching and delivery-ready exports across all usage scenarios.',
-    icon: 'i-lucide-sparkles'
+    title: 'Harden & hand over',
+    description: 'Automated testing, performance budgets, and clear documentation ensure teams can own the product long-term.',
+    icon: 'i-lucide-shield-check'
   }
 ]
 
@@ -243,7 +243,7 @@ useSeoMeta({
           color="neutral"
           size="sm"
         >
-          Portfolio 2025
+          Engineering Portfolio 2025
         </UBadge>
       </template>
       <template #links>
@@ -292,7 +292,7 @@ useSeoMeta({
 
     <UPageSection
       title="At a glance"
-      description="A snapshot of the production footprint clients rely on."
+      description="Key metrics that guide how I ship software."
       :ui="{
         container: '!pt-0',
         title: 'text-left text-2xl font-semibold',
@@ -329,8 +329,8 @@ useSeoMeta({
     </UPageSection>
 
     <UPageSection
-      title="Signature collections"
-      description="Curated series that demonstrate how we translate strategy into sensory visuals across sectors."
+      title="Case studies"
+      description="Detailed walkthroughs of recent projects and the engineering decisions behind them."
       :ui="{
         container: '!pt-0',
         title: 'text-left text-2xl font-semibold',
@@ -466,8 +466,8 @@ useSeoMeta({
     </UPageSection>
 
     <UPageSection
-      title="Workflow & services"
-      description="Built for creative directors and marketers who need a single partner from first call sheet to final delivery."
+      title="How I work"
+      description="The delivery loop I rely on to keep releases predictable and maintainable."
       :ui="{
         container: '!pt-0',
         title: 'text-left text-2xl font-semibold',
@@ -509,10 +509,10 @@ useSeoMeta({
         <div class="md:items-center gap-6 grid md:grid-cols-[minmax(0,2fr)_minmax(0,1fr)]">
           <div class="space-y-4">
             <h3 class="font-semibold text-default text-2xl">
-              Let’s shape your next campaign
+              Let's ship your next release
             </h3>
             <p class="max-w-xl text-muted text-sm">
-              From pre-production logistics to polished delivery, I translate your brief into visuals that feel premium, lived-in, and undeniably on brand.
+              From roadmap discovery to production support, I take features from idea to release while keeping code quality, performance, and stakeholder feedback in sync.
             </p>
             <div class="flex flex-wrap gap-3">
               <UButton

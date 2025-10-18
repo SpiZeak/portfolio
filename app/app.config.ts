@@ -3,10 +3,10 @@ export default defineAppConfig({
     picture: {
       dark: '/hero/avatar.webp',
       light: '/hero/avatar.webp',
-      alt: 'My profile picture'
+      alt: 'Portrait of Max Trewhitt'
     },
-    meetingLink: 'https://cal.com/',
-    email: 'ui-pro@nuxt.com',
+    meetingLink: 'https://cal.com/max-trewhitt',
+    email: 'max@trewhitt.au',
     available: true
   },
   ui: {

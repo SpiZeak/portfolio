@@ -1,33 +1,40 @@
----
-title: The Psychology of Color in UI Design
-description: Exploring how strategic color choices can influence user behavior,
-  evoke emotions, and enhance the overall user experience of digital products.
+title: Optimising WordPress Performance for Lightweb's Campaign Sites
+description: Lessons from reducing load times and improving Core Web Vitals while building custom plugins for Lightweb clients.
 date: 2025-03-15
 image: https://images.pexels.com/photos/40799/paper-colorful-color-loose-40799.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
 minRead: 5
 author:
-  name: Max Trewhitt
-  avatar:
-    src: https://images.unsplash.com/photo-1701615004837-40d8573b6652?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-    alt: Max Trewhitt
+name: Max Trewhitt
+avatar:
+src: https://images.unsplash.com/photo-1701615004837-40d8573b6652?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+alt: Max Trewhitt
+
 ---
 
-Color is one of the most powerful tools in my design arsenal, yet I find it's often reduced to mere aesthetics or brand guidelines. After conducting a series of A/B tests for the Wavelength music app redesign, I've gathered some fascinating insights about how color psychology directly impacts user behavior.
+During my internship at Lightweb I owned a string of performance projects for WordPress marketing sites. Each homepage was crammed with plugins, blocking scripts, and auto-generated markup. Here is the playbook we now run whenever a campaign site starts to drag.
 
-When we initially launched the app, we used a vibrant purple as our primary action color. The color looked great with our brand palette, but our conversion metrics were underwhelming. On a hunch, I proposed testing different primary colors while keeping all other elements identical.
+## 1. Measure first, then make promises
 
-The results were striking: switching to a specific shade of blue increased our call-to-action conversion by 34%. Even more interesting was how different user segments responded to color variations—younger users engaged more with vibrant tones, while our 35+ demographic showed stronger preference for more subdued colors.
+We capture baseline metrics using WebPageTest, Lighthouse, and Chrome DevTools performance traces on both desktop and a throttled Moto G4 profile. This makes conversations easier when someone says “the page feels slow” because we can point to Largest Contentful Paint (5.6s) or JavaScript execution time (4.1s) instead of debating feelings.
 
-Beyond conversion metrics, I discovered that color significantly affected how users perceived waiting times. By implementing a softer color progression in our loading animations, users reported that the app felt faster, even though the actual loading times remained unchanged.
+## 2. Trim and defer everything you can
 
-I've since developed a framework for color decision-making that goes beyond aesthetics:
+WordPress themes often enqueue assets regardless of need. We built a custom plugin that exposes an admin UI for toggling scripts per template. Anything non-essential is deferred, inlined, or replaced with a modern alternative. We swapped slider libraries for CSS scroll snapping and replaced jQuery-powered animations with a handful of vanilla JS modules.
 
-1. Consider the emotional response you want to evoke
-2. Test color choices with your specific user demographics
-3. Use color to create visual hierarchies that guide users naturally
-4. Consider cultural associations of colors for international audiences
-5. Ensure sufficient contrast for readability and accessibility
+## 3. Optimise media and caching
 
-The most valuable lesson I've learned is that there are no universal "right" colors—only colors that effectively communicate your message and guide users toward their goals within your specific context.
+Most hero images shipped at 4–6 MB. We introduced an image pipeline using Sharp to generate responsive WebP assets and set up cache headers through Cloudflare Workers. Coupled with lazy loading, this alone shaved two seconds off LCP across the board.
 
-Next time you're selecting a color palette, think beyond what looks good and consider what your colors are actually saying to your users.
+## 4. Harden the back end
+
+On the PHP side we cached expensive queries with transients, pruned database calls in Advanced Custom Fields loops, and added a job that warms caches after editors publish updates. We also audited plugins and removed anything unmaintained or redundant.
+
+## 5. Keep regressions out of production
+
+Performance checks are part of our GitHub Actions workflow. Every pull request runs Lighthouse CI and fails if budgets are exceeded. Stakeholders see the reports directly in pull requests, which keeps the team aligned.
+
+### Results
+
+Across three high-traffic campaign sites we cut Largest Contentful Paint from 5.6s to 2.3s, reduced JavaScript execution time by 58%, and set up a maintainable process for future launches. Editors now have the tooling to keep pages lean without touching code.
+
+If you run WordPress at scale and need help tuning it, feel free to reach out.

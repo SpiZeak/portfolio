@@ -24,13 +24,14 @@ defineProps<{
           :while-in-view="{ opacity: 1, transform: 'translateY(0)' }"
           :transition="{ delay: 0.4 + 0.2 * index }"
           :in-view-options="{ once: true }"
-          class="text-muted flex items-center text-nowrap gap-2"
+          class="flex items-center gap-2 text-muted text-nowrap"
         >
           <p class="text-sm">
             {{ experience.date }}
           </p>
           <USeparator />
           <ULink
+            v-if="experience.company.url"
             class="flex items-center gap-1"
             :to="experience.company.url"
             target="_blank"
@@ -46,6 +47,21 @@ defineProps<{
               <UIcon :name="experience.company.logo" />
             </div>
           </ULink>
+          <span
+            v-else
+            class="flex items-center gap-1"
+          >
+            <span class="text-sm">
+              {{ experience.position }}
+            </span>
+            <div
+              class="inline-flex items-center gap-1"
+              :style="{ color: experience.company.color }"
+            >
+              <span class="font-medium">{{ experience.company.name }}</span>
+              <UIcon :name="experience.company.logo" />
+            </div>
+          </span>
         </Motion>
       </div>
     </template>

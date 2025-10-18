@@ -1,100 +1,105 @@
 seo:
-  title: 'Max Trewhitt - Full Stack Developer'
-  description: "Welcome to my portfolio! I'm Max Trewhitt, a Full Stack Developer with 8 years of experience based in Sweden, blending Australian roots with a passion for user-centered digital experiences."
-title: "Hey, I'm Max Trewhitt Full Stack Developer"
-description: 'Full Stack Developer with 8 years of experience, based in Sweden with Australian roots. I craft intuitive digital experiences where design meets functionality.'
+  title: 'Max Trewhitt - Full-Stack Software Engineer'
+  description: 'Full-stack software engineer based in Sweden with Australian-Swedish roots, specialising in JavaScript, TypeScript, React, Node.js, and WordPress.'
+title: "Hey, I'm Max Trewhitt — Full-Stack Software Engineer"
+description: 'I build performant web applications and custom WordPress solutions with React, Node.js, TypeScript, and PHP for clients at Osolo Consultant Group and beyond.'
 hero:
+  links:
+    - label: 'View résumé'
+      color: 'primary'
+      to: '/resume.pdf'
+    - label: 'Email me'
+      color: 'neutral'
+      variant: 'ghost'
+      to: 'mailto:max@trewhitt.au'
   images:
     - src: /hero/random-1.avif
-      alt: Random Image 1
+      alt: Interface concept showing an analytics dashboard
     - src: /hero/random-2.avif
-      alt: Random Image 2
+      alt: Style guide panels for a custom WordPress theme
     - src: /hero/random-3.avif
-      alt: Random Image 3
+      alt: Responsive layout preview across devices
     - src: /hero/random-4.avif
-      alt: Random Image 4
+      alt: Design tokens mapped to reusable React components
     - src: /hero/random-5.avif
-      alt: Random Image 5
+      alt: Sprint board highlighting client onboarding milestones
     - src: /hero/random-6.avif
-      alt: Random Image 6
+      alt: API monitoring cards on a dark UI
     - src: /hero/random-7.avif
-      alt: Random Image 7
+      alt: Collaboration board outlining backlog priorities
     - src: /hero/random-8.avif
-      alt: Random Image 8
+      alt: Performance profiling graph for a Node.js service
     - src: /hero/random-9.avif
-      alt: Random Image 9
+      alt: WordPress block editor with custom components
     - src: /hero/random-10.avif
-      alt: Random Image 10
+      alt: Accessibility checklist prepared for release review
     - src: /hero/random-11.avif
-      alt: Random Image 11
+      alt: TypeScript code review in progress
     - src: /hero/random-12.avif
-      alt: Random Image 12
+      alt: Mobile PWA concept for robotics education
 about:
-  title: 'About Me'
+  title: 'About'
   description: |
-    As a Full Stack Developer with 8 years of experience, I leverage my Boston University Interactive Design degree to craft user-centered digital experiences.
-    Based in Sweden with Australian citizenship and family ties Down Under, my approach blends creative strategy with technical expertise, transforming concepts into functional, purposeful digital products that seamlessly integrate design and technology.
+    I'm a full-stack developer who has spent the past seven years delivering production-ready software for Osolo Consultant Group. My work spans React and TypeScript front-ends, Node.js APIs, and bespoke WordPress implementations that let marketing teams move fast without compromising quality.
+
+    With Australian and Swedish citizenship, I'm ready to collaborate across time zones as opportunities arise, leading agile ceremonies and translating business goals into reliable, maintainable code. I hold an Advanced Diploma in Front-End Development from KYH and a university preparatory qualification focused on programming, media, and game development from Cybergymnasiet.
+
+    I care about maintainable architecture, clear communication, and the details that make users feel confident in the tools they rely on every day.
 experience:
   title: Work Experience
   items:
-    - position: 'Brand Designer at'
-      date: '2023 - Present'
+    - position: 'Web Developer'
+      date: '2018 — Present'
       company:
-        name: Nuxt
-        logo: 'i-simple-icons-nuxtdotjs'
-        url: 'https://nuxt.com'
-        color: '#00DC82'
-    - position: 'Assets Designer at'
-      date: '2022 - 2023'
+        name: Osolo Consultant Group
+        logo: 'i-lucide-building-2'
+        color: '#0B7285'
+    - position: 'WordPress Developer (Internship)'
+      date: '2017 — 2018'
       company:
-        name: Raycast
-        logo: 'i-simple-icons-raycast'
-        url: 'https://raycast.com'
-        color: '#FF6363'
-    - position: 'Senior Full Stack Developer at'
-      date: '2020 - 2021'
+        name: Lightweb
+        logo: 'i-lucide-paintbrush'
+        color: '#1D4ED8'
+    - position: 'React Developer (Internship)'
+      date: '2017'
       company:
-        name: Linear
-        logo: 'i-simple-icons-linear'
-        url: 'https://linear.app'
-        color: '#5E6AD2'
+        name: Vinnovera – Robotkodarn
+        logo: 'i-lucide-cpu'
+        color: '#9333EA'
 blog:
   title: 'Latest Articles'
-  description: 'Some of my recent thoughts'
+  description: 'Notes on full-stack engineering, performance, and product delivery.'
 faq:
   title: Frequently Asked Questions
-  description: Answers to common questions about my process and services.
+  description: Answers to common questions about my engineering practice.
   categories:
-    - title: Services & Process
+    - title: Delivery & Stack
       questions:
-        - label: What services do you offer?
+        - label: What technologies do you work with daily?
           content: |
-            I specialize in Full Stack Development. This includes user research, wireframing, interactive prototyping, creating intuitive user interfaces, building responsive websites and web applications (especially with Vue.js/Nuxt.js), and developing design systems. My goal is to create seamless digital experiences from concept to deployment.
-        - label: What is your design process like?
+            My core stack centres on React, TypeScript, and Node.js on the application side, paired with PHP and WordPress when teams need flexible content authoring. I also work with tooling such as Webpack, Vite, ESLint, and Playwright to keep projects reliable and maintainable.
+        - label: Can you integrate with existing WordPress sites?
           content: |
-            My process is collaborative and iterative, typically involving stages like Discovery & Research, Ideation & Prototyping, User Testing, Visual Design, and close collaboration with development teams during implementation. I tailor the process based on project needs, always focusing on user-centered solutions.
-        - label: Do you work with startups?
+            Yes. I build custom themes, extend the WordPress REST API, and develop plugins that add the features clients need without locking them into fragile code. I focus on clean architectures that marketing teams can continue to manage after handover.
+        - label: How do you ensure performance and accessibility?
           content: |
-            Absolutely! I enjoy working with startups to help shape their product vision and create user-friendly interfaces from the ground up. I can adapt my process to fit the fast-paced startup environment.
-    - title: Pricing & Timelines
+            I run performance budgets during development, monitor Lighthouse scores, and keep bundle sizes in check through code-splitting and caching strategies. Accessibility audits, semantic markup, and assistive technology testing are baked into my delivery checklist.
+    - title: Working Together
       questions:
-        - label: How much does a project typically cost?
+        - label: How do you structure projects?
           content: |
-            Project costs vary based on scope, complexity, features, and timeline. For comprehensive Full Stack Development projects, my engagements typically start around $5,000, with average projects ranging between $8,000 and $25,000. For consulting or specific design tasks, my day rate is $700.
-        - label: What are your payment terms?
+            I favour agile sprints with tight feedback loops. That means grooming backlog items with stakeholders, pairing with designers, and demoing work at the end of each iteration so we can adjust course early.
+        - label: What does a typical engagement timeline look like?
           content: |
-            I generally require a 40% deposit to schedule the project and begin work, with the remaining 60% due upon successful project completion and delivery. I accept payments via bank transfer and Stripe.
-        - label: How long does a typical project take?
+            Discovery and technical scoping usually take one to two weeks. Feature delivery then runs in two-week sprints with regular showcases, backed by continuous integration so stakeholders can review progress in staging as we go.
+        - label: Do you offer maintenance support?
           content: |
-            Timelines depend heavily on the project's scope and complexity. Smaller projects might take 3-4 weeks, while larger, more involved projects can range from 2 to 4 months. I always provide a detailed timeline estimate after the initial discovery phase.
-        - label: Do you offer retainers or ongoing support?
-          content: |
-            Yes, for clients needing ongoing design support, feature development, or maintenance, I offer monthly retainer options tailored to specific needs. Let's discuss if this is something you're interested in.
-    - title: About Me
+            Absolutely. I support clients with release management, dependency upgrades, and performance reviews to keep platforms stable after launch.
+    - title: Background
       questions:
-        - label: What do you enjoy most about your work?
+        - label: What's your professional background?
           content: |
-            I love the challenge of solving complex problems through design and technology. It's incredibly rewarding to see people interact with something I've created and find it genuinely useful and easy to navigate. Bridging the gap between user needs and technical possibilities is what truly excites me.
-        - label: What are your hobbies outside of work?
+            I've been a Web Developer at Osolo Consultant Group since 2018, leading full-stack development across React, Node.js, and WordPress projects. Before that I completed internships with Lightweb, where I built custom WordPress plugins and themes, and with Vinnovera on the Robotkodarn React application.
+        - label: Where are you based and who do you work with?
           content: |
-            When I'm not designing or coding, I enjoy exploring Sweden's neighborhoods and fika spots, staying connected with family in Australia, and heading outdoors for a hike. I'm also passionate about photography and occasionally contribute to open-source projects.
+            I live in Sweden and collaborate remotely with teams across Europe and Australia. As an Australian and Swedish citizen, I'm comfortable working across time zones and with international stakeholders.
