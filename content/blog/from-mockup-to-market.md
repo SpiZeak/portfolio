@@ -1,3 +1,4 @@
+---
 title: "From Brief to Production: Shipping the Osolo Client Onboarding Portal"
 description: How I take a React and WordPress project from discovery to deployment, based on the client onboarding platform we run at Osolo Consultant Group.
 date: 2025-04-23
@@ -8,7 +9,6 @@ name: Max Trewhitt
 avatar:
 src: https://images.unsplash.com/photo-1701615004837-40d8573b6652?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 alt: Max Trewhitt
-
 ---
 
 Over the past few years I've been responsible for taking the Osolo Consultant Group client onboarding portal from an initial brief to a reliable production platform. The stack mixes React, TypeScript, Node.js, and WordPress. This article documents the exact steps we follow, including the guardrails that keep the build shippable even as requirements shift.

@@ -1,7 +1,7 @@
 seo:
   title: 'Max Trewhitt - Full-Stack Software Engineer'
   description: 'Full-stack software engineer based in Sweden with Australian-Swedish roots, specialising in JavaScript, TypeScript, React, Node.js, and WordPress.'
-title: "Hey, I'm Max Trewhitt — Full-Stack Software Engineer"
+title: "Hey, I'm Max Trewhitt"
 description: 'I build performant web applications and custom WordPress solutions with React, Node.js, TypeScript, and PHP for clients at Osolo Consultant Group and beyond.'
 hero:
   links:
@@ -69,37 +69,3 @@ experience:
 blog:
   title: 'Latest Articles'
   description: 'Notes on full-stack engineering, performance, and product delivery.'
-faq:
-  title: Frequently Asked Questions
-  description: Answers to common questions about my engineering practice.
-  categories:
-    - title: Delivery & Stack
-      questions:
-        - label: What technologies do you work with daily?
-          content: |
-            My core stack centres on React, TypeScript, and Node.js on the application side, paired with PHP and WordPress when teams need flexible content authoring. I also work with tooling such as Webpack, Vite, ESLint, and Playwright to keep projects reliable and maintainable.
-        - label: Can you integrate with existing WordPress sites?
-          content: |
-            Yes. I build custom themes, extend the WordPress REST API, and develop plugins that add the features clients need without locking them into fragile code. I focus on clean architectures that marketing teams can continue to manage after handover.
-        - label: How do you ensure performance and accessibility?
-          content: |
-            I run performance budgets during development, monitor Lighthouse scores, and keep bundle sizes in check through code-splitting and caching strategies. Accessibility audits, semantic markup, and assistive technology testing are baked into my delivery checklist.
-    - title: Working Together
-      questions:
-        - label: How do you structure projects?
-          content: |
-            I favour agile sprints with tight feedback loops. That means grooming backlog items with stakeholders, pairing with designers, and demoing work at the end of each iteration so we can adjust course early.
-        - label: What does a typical engagement timeline look like?
-          content: |
-            Discovery and technical scoping usually take one to two weeks. Feature delivery then runs in two-week sprints with regular showcases, backed by continuous integration so stakeholders can review progress in staging as we go.
-        - label: Do you offer maintenance support?
-          content: |
-            Absolutely. I support clients with release management, dependency upgrades, and performance reviews to keep platforms stable after launch.
-    - title: Background
-      questions:
-        - label: What's your professional background?
-          content: |
-            I've been a Web Developer at Osolo Consultant Group since 2018, leading full-stack development across React, Node.js, and WordPress projects. Before that I completed internships with Lightweb, where I built custom WordPress plugins and themes, and with Vinnovera on the Robotkodarn React application.
-        - label: Where are you based and who do you work with?
-          content: |
-            I live in Sweden and collaborate remotely with teams across Europe and Australia. As an Australian and Swedish citizen, I'm comfortable working across time zones and with international stakeholders.

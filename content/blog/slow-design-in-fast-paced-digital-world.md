@@ -1,3 +1,4 @@
+---
 title: Running Sustainable Agile Rituals Across Time Zones
 description: How our distributed team at Osolo Consultant Group keeps delivery predictable without burning out engineers or stakeholders.
 date: 2025-01-28
@@ -8,7 +9,6 @@ name: Max Trewhitt
 avatar:
 src: https://images.unsplash.com/photo-1701615004837-40d8573b6652?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 alt: Max Trewhitt
-
 ---
 
 Our engineering team spans Sweden, Australia, and North America. Early on we ran stand-ups, planning, and retros in ways that worked for one time zone but exhausted everyone else. After a few painful sprints we redesigned the process. Here is what keeps us shipping without burning out.

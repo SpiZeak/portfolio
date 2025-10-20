@@ -1,3 +1,4 @@
+---
 title: Building Osolo's React Component Library with Storybook
 description: How we consolidated UI patterns into a TypeScript-first component library, complete with automated testing and release workflows.
 date: 2025-03-05
@@ -8,7 +9,6 @@ name: Max Trewhitt
 avatar:
 src: https://images.unsplash.com/photo-1701615004837-40d8573b6652?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 alt: Max Trewhitt
-
 ---
 
 When our delivery teams at Osolo Consultant Group hit five concurrent React projects, we knew we needed a shared component library. This post covers the steps we took to build it, from auditing inconsistent UI to shipping a versioned package with Storybook docs.

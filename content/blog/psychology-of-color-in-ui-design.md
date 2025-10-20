@@ -1,3 +1,4 @@
+---
 title: Optimising WordPress Performance for Lightweb's Campaign Sites
 description: Lessons from reducing load times and improving Core Web Vitals while building custom plugins for Lightweb clients.
 date: 2025-03-15
@@ -8,7 +9,6 @@ name: Max Trewhitt
 avatar:
 src: https://images.unsplash.com/photo-1701615004837-40d8573b6652?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 alt: Max Trewhitt
-
 ---
 
 During my internship at Lightweb I owned a string of performance projects for WordPress marketing sites. Each homepage was crammed with plugins, blocking scripts, and auto-generated markup. Here is the playbook we now run whenever a campaign site starts to drag.

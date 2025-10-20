@@ -51,6 +51,5 @@ const particleConfig = {
       <LandingWorkExperience :page />
     </UPageSection>
     <LandingBlog :page />
-    <LandingFAQ :page />
   </UPage>
 </template>
